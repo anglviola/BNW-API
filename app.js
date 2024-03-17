@@ -18,7 +18,7 @@ app.prepare().then(() => {
 
   server.use(
     session({
-      secret: "imyourdarkestSecret!@@@@33312273834",
+      secret: "",
       resave: false,
       saveUninitialized: false
     })
